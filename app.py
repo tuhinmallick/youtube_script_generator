@@ -38,13 +38,13 @@ def process_request(request_id, api_key, style, topic):
     editor = autogen.AssistantAgent(
         name="content_editor",
         llm_config=llm_config,
-        system_message=f"Experienced youtube content editor."
+        system_message="Experienced youtube content editor.",
     )
 
     writer = autogen.AssistantAgent(
         name="script_writer",
         llm_config=llm_config,
-        system_message=f"Script writer with a proven record in writing viral video scripts for successful youtubers."
+        system_message="Script writer with a proven record in writing viral video scripts for successful youtubers.",
     )
 
     user_proxy = autogen.UserProxyAgent(
