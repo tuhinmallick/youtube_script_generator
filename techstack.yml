@@ -1,0 +1,84 @@
+repo_name: tuhinmallick/youtube_script_generator
+report_id: ae80496d61c8c7628d0916cd012fb944
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T20:07:16+00:00'
+requested_by: Dachkovski
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/tuhinmallick/youtube_script_generator
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tuhinmallick/youtube_script_generator
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/tuhinmallick/youtube_script_generator/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dennis Dachkovski
+  last_updated_on: 2023-10-10 23:49:51.000000000 Z
+- name: Flask
+  description: A simple framework for building complex web applications
+  package_url: https://pypi.org/project/Flask
+  version: 2.2.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/tuhinmallick/youtube_script_generator/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dennis Dachkovski
+  last_updated_on: 2023-10-10 23:49:51.000000000 Z
+- name: Werkzeug
+  description: The comprehensive WSGI web application library
+  package_url: https://pypi.org/project/Werkzeug
+  version: 2.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19890/default_87fc2af3f2409064833512bb6fc5b04443a2e6aa.png
+  detection_source_url: https://github.com/tuhinmallick/youtube_script_generator/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Dennis Dachkovski
+  last_updated_on: 2023-10-11 00:16:49.000000000 Z
+  vulnerabilities:
+  - name: High resource usage when parsing multipart form data with many fields
+    cve_id: CVE-2023-25577
+    cve_url: https://github.com/advisories/GHSA-xg9f-g7g7-2323
+    detected_date: Feb 16
+    severity: high
+    first_patched: 2.2.3
+  - name: Incorrect parsing of nameless cookies leads to __Host- cookies bypass
+    cve_id: CVE-2023-23934
+    cve_url: https://github.com/advisories/GHSA-px8h-6qxv-m22q
+    detected_date: Feb 16
+    severity: low
+    first_patched: 2.2.3
